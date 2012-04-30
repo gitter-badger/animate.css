@@ -2035,6 +2035,88 @@ body {
 	-o-animation-name: bounceIn;
 	animation-name: bounceIn;
 }
+@-webkit-keyframes zoomIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes zoomIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		-moz-transform: scale(1);
+	}
+}
+
+@-ms-keyframes zoomIn {
+	0% {
+		opacity: 0;
+		-ms-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		-ms-transform: scale(1);
+	}
+}
+
+@-o-keyframes zoomIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		-o-transform: scale(1);
+	}
+}
+
+@keyframes zoomIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		transform: scale(1);
+	}
+}
+
+.zoomIn {
+	-webkit-animation-name: zoomIn;
+	-moz-animation-name: zoomIn;
+	-ms-animation-name: zoomIn;
+	-o-animation-name: zoomIn;
+	animation-name: zoomIn;
+}
 @-webkit-keyframes bounceInUp {
 	0% {
 		opacity: 0;
